@@ -1,0 +1,51 @@
+.footer {
+  min-height: 500px;
+  background-color: #000000;
+  padding: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 2rem;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.grid ul {
+  display: inherit;
+}
+
+.footer-ul li {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.list-heading {
+  color: #686d76;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.flex li {
+  font-weight: 100;
+}
+
+.flex p {
+  font-weight: 100;
+}
+
+.flex p {
+  color: #ffffff;
+}

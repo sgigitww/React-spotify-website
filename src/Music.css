@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.music {
+  margin-bottom: 100px;
+}
+
+.music-heading {
+  font-size: 3rem;
+}
+
+.music-content {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.music-para {
+  margin-top: 20px;
+}
+
+.btn-dark {
+  background-color: #ffffff;
+  color: #333333;
+  outline: 1px;
+  border: #333333 solid 2px;
+  height: 50px;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
+
+.btn-dark:hover {
+  background-color: #616467;
+  color: #ffffff;
+}
+
+.music-container {
+  width: 65%;
+  margin: auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  justify-content: space-between;
+  margin-top: 80px;
+}
