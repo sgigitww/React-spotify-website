@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./Navbar";
-import Music from "./Music";
-import Footer from "./Footer";
+import Navbar from "../Navbar/Navbar";
+import Music from "../Music/Music";
+import Footer from "../Footer/Footer";
 
 function App() {
   return (
